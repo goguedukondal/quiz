@@ -67,7 +67,7 @@ function Quiz({
       data: dataset[0],
       s_no: 1
     });
-  }, []);
+  }, ['']);
 
   const checkAnswer = (value) => {
     setTimeout(() => {
